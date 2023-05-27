@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Nivelacion M2</title>
+</head>
+
+<body>
+    <aside>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            <a href="carrusel.html">click here</a>
+        </p>
+    </aside>
+    <header class="header d-flex align-items-center justify-content-center flex-column">
+        <!--<img src="/img/woman.jpg" alt="" width="800">-->
+        <h1 class="mb-5 display-1">RUNNERS PRO <sup>&reg;</sup></h1>
+        <div class="row">
+            <div class="col-auto col-md-6 mx-auto mb-3 mb-md-0">
+                <a href="#">
+                    <img class="max-width-100" src="img/appstore.png" alt="Download on the App Store">
+                </a>
+            </div>
+            <div class="col-auto col-md-6 mx-auto ">
+                <a href="#">
+                    <img class="max-width-100" src="img/googleplay.png" alt="Get it on Google Play">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="container">
+        <div class="row my-5">
+            <div class="col-12 col-md-6 mx-auto mb-3 text-center text-md-end ">
+                <img class="img-fluid" src="img/hombre corriendo.jpg" alt="hombre corriendo">
+            </div>
+            <div class="col-12 col-md-6 mx-auto ">
+                <h4>RUN LIKE A <span class="red-text">PRO</span></h4>
+                <p class="max-box">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti perferendis voluptates ab labore
+                    dolore consequuntur, eligendi, nulla aliquid sint, perspiciatis debitis eos quam qui quo expedita.
+                    Repellendus cupiditate molestias rem.</p>
+            </div>
+        </div>
+        <div class="row my-5 d-flex">
+            <div class="col-12 col-md-6 order-1 order-md-0 ">
+                <h4>FEEL LIKE A <span class="red-text">PRO</span></h4>
+                <p>Illo asperiores ad totam, a vitae molestiae ipsum, hic nisi eligendi doloribus corrupti enim</p>
+            </div>
+            <div class="col-12 col-md-6 order-0 order-md-1 mb-3 text-center text-md-start">
+                <img class="img-fluid" src="img/mujer corriendo.jpg" alt="mujer corriendo" width=" 360">
+            </div>
+        </div>
+    </section>
+    <section class="container d-none d-md-block">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6 text-center">
+                <div>
+                    <i class="fa-solid fa-map-location-dot fa-2xl line-height-100"></i>
+                    <h6>ROUTE <span class="red-text">TRACKING</span></h6>
+                </div>
+                <div class="mb-50 mt-50">
+                    <i class="fa-solid fa-users fa-2xl line-height-100"></i>
+                    <h6>SHARE WITH <span class="red-text">FRIENDS</span></h6>
+                </div>
+                <div>
+                    <i class="fa-solid fa-music fa-2xl line-height-100"></i>
+                    <h6>PERSONAL <span class="red-text">COACH</span></h6>
+                </div>
+            </div>
+            <div class="col">
+                <img class="img-fluid" src="img/cell.png" alt="">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-description">
+                <h3>RUNNERS PRO <sup>R</sup></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia repellat illum enim neque qui
+                    facilis. Omnis beatae quasi ullam esse itaque delectus quo libero excepturi placeat, corporis
+                    dolorum aperiam expedita!</p>
+            </div>
+            <nav class="row justify-content-center">
+                <ul class="navbar-footer">
+                    <li><a href="#">Update email frecuency</a></li>
+                    <li><a href="#">Go to RunnersPro.com</a></li>
+                    <li><a href="#">Unsunscribe</a></li>
+                </ul>
+            </nav>
+            <ul class="row justify-content-center redes-sociales">
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-square-snapchat"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+            <p class="text-center">asdadaidjaosdjaisjdijaosdjiodasjis</p>
+            <ul class="row justify-content-center navbar-footer">
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms of use</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b5f6e1b92b.js" crossorigin="anonymous"></script>
+    <script>
+        let seccion = document.querySelector('section');
+            seccion.onclick = function(){
+                seccion.classList.add('bg-danger');
+                alert('color feo');
+            }
+    </script>
+</body>
+
+</html>
